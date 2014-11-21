@@ -1,0 +1,190 @@
+body
+	{
+	margin: 0px;
+	font-family: verdana,tahoma,arial;
+	font-size: 11px;
+	background-color: #fff;
+	color: #000;
+	}
+
+#formtable
+	{
+	margin: 20px auto;
+	border: 1px solid #bababa;
+	}
+
+#formtable th.title
+	{
+	background-color: #B3D98C;
+	padding: 10px;
+	font-size: 16px;
+	}	
+	
+#formtable th.title a
+	{
+	font-size: 10px;
+	}	
+	
+#formtable th.title div#guide
+	{
+	font-size: 12px;
+	margin: 10px auto 10px auto;
+	width: 400px;
+	color: #ffffff;
+	}		
+	
+#formtable th.title div#hits
+	{
+	text-align: right;
+	width: 100%;
+	color: #808080;
+	}
+	
+#formtable th
+	{
+	background-color: #b3b3b3;
+	padding: 5px;
+	}
+	
+#formtable td
+	{
+	padding: 5px;
+	}
+
+#formtable td.nopad
+	{
+	padding: 0px;
+	}
+
+#formtable textarea
+	{
+	width: 300px;
+	height: 50px;
+	}	
+	
+#formtable span
+	{
+	float: right;
+	margin-left: 20px;
+	margin-right: 5px;
+	font-size: 14px;
+	color: #CC6600;
+	}	
+	
+#formtable div
+	{
+	width: 220px;
+	font-size: 10px;
+	color: #CC6600;
+	}		
+	
+.row0
+	{
+	background-color: #e6e6e6;
+	}
+	
+.row1
+	{
+	background-color: #d1d1d1;
+	}
+	
+button
+	{
+	border: 1px solid #3399FF;
+	width: 100%;
+	padding: 10px;
+	background-color: #B3D9FF;
+	cursor: pointer;
+	}
+
+button:hover
+	{
+	color: white;
+	border: 1px solid #0059B3;
+	background-color: #0059B3;
+	}
+
+#warning
+	{
+	text-align: center;
+	color: red;
+	}
+	
+#score, #summary
+	{
+	display: none;
+	margin: 20px auto;
+	border: 1px solid #bababa;
+	}
+
+#score th, #summary th
+	{
+	background-color: #B3D98C;
+	padding: 10px;
+	font-size: 12px;
+	}
+	
+#score td
+	{
+	padding: 5px;
+	}	
+	
+#score td.nopad
+	{
+	padding: 0px;
+	}	
+	
+#score td a
+	{
+	font-size: 11px;
+	}		
+
+#score textarea
+	{
+	background-color: #EDEDED;
+	width: 650px;
+	}
+
+#summary textarea
+	{
+	background-color: #EDEDED;
+	width: 650px;
+	}
+	
+#summary th a
+	{
+	font-size: 10px;
+	}	
+	
+.popup
+	{
+	width: 600px;
+	border: 1px solid #bababa;
+	background-color: #EFD9C3;
+	display: none;
+	position: absolute;
+	}
+
+.popup th.title
+	{
+	background-color: #285E95;
+	padding: 10px;
+	font-size: 14px;
+	color: white;
+	}	
+	
+#pop_copy	
+	{
+	width: 320px;
+	}
+
+#pop_shortcut
+	{
+	width: 420px;
+	}
+	
+.close
+	{
+	text-align: center;
+	padding-bottom: 5px;
+	}		
